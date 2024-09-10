@@ -4,6 +4,7 @@ export const arrayOfPossibleMessage = [
     {mensagem:"Olá", response: "hello!"},
     {mensagem:"kkkkkkkkk", response: "ta rindo de que poha?"},
     {mensagem:"Quem é o cara mais gay do mundo?", response: "Sem dúvidas é o gustavo!"},
+    {mensagem:"Quem é o mineiro", response: "É o pedro do 1 semestre"},
     {mensagem:"oi", response: "Olá!"},
     {mensagem:"como vai?", response: "Bem e vc?"},
     {mensagem:"boa tarde", response: "Tarde boa!"},

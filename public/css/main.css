@@ -1,32 +1,109 @@
-.navbar {
-    margin-bottom: 25px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
 
-ul {
-    list-style-type: none;
-    margin: 0;
+* {
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-li {
-    float: left;
-    border-right: 1px solid #bbb;
+.joan-regular {
+    font-family: "Joan", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    height: 70px;
 }
 
-li:last-child {
-    border-right: none;
+.leftside {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.leftside img {
+    width: 180px;
+}
+.leftside h1 {
+    font-size: 48px;
 }
 
-li a {
-    display: block;
-    color: white;
+.midleside {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+
+    font-size: 20px;
+}
+.midleside .navbar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+}
+.midleside .navbar a {
     text-decoration: none;
-    padding: 14px 16px;
-    text-align: center;
+    color: gray;
+}
+.midleside .navbar a:hover {
+    color: #48939E;
+    font-weight: bolder;
+
+}
+.midleside .socialmedia .icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.midleside .socialmedia .icons p {
+    color: gray;
+}
+.midleside .socialmedia a {
+    text-decoration: none;
+    color: gray;
+}
+.midleside .socialmedia a:hover {
+    color: #48939E;
+    font-weight: bolder;
+}
+
+.rightside {
+    color: white;
+    width: 530px;
+    height: 40px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #DB0E69;
+}
+.app  {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.app p {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.app .googleplay img {
+    width: 45px;
+}
+.app .googleplay {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.app .applestore {
+    gap: 10px;
+    align-items: center;
+    display: flex;
+}
+.app .applestore img {
+    width: 55px;
 }
